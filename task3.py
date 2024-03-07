@@ -2,7 +2,7 @@ def find_triangle(angle_a, angle_b):
     sum_angles = angle_a + angle_b
     angle_c = 180 - sum_angles
 
-    if sum_angles > 180 or sum_angles < angle_c:
+    if sum_angles > 180:
         print("Triangle is not exist.")
     
     if sum_angles == 180 or angle_c == 90:
